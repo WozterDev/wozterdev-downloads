@@ -1,7 +1,12 @@
-﻿WozterDev 1.0.5 is available for Windows x64.
+WozterDev 1.2.0 is available for Windows, Linux, and macOS.
 
-This per-user installer displays setup progress and a completion message. It installs only the WozterDev application; service packages such as Nginx, PHP, and databases can be installed separately from the Services page.
+### Downloads
 
-Projects and enabled browser-based services use `.local` URLs. Existing project and service data remains in the current Windows user's `%LOCALAPPDATA%\WozterDev` folder.
+- Windows x64 installer: `WozterDevSetup.msi`
+- Linux x64 and ARM64: matching `.tar.gz` application packages
+- macOS Intel and Apple Silicon: matching `.zip` app bundles
+- `SHA256SUMS.txt`: SHA-256 checksums for the five application packages
 
-The MSI is currently unsigned. Verify `SHA256SUMS.txt` before installation.
+These attached files are prebuilt application packages. They do not contain WozterDev project source code. GitHub automatically shows source-archive links for release tags; this release's tag points to an empty snapshot, so those links do not contain the application source. Use the platform packages attached above to install WozterDev.
+
+The macOS app is unsigned and may require approval in Privacy & Security on first launch. Linux and macOS require PHP, Node.js/npm, and Python to be installed separately for creating and running projects that use those runtimes.

@@ -5,7 +5,6 @@ Download the latest prebuilt WozterDev application. This public repository distr
 ## Latest: 1.2.0
 
 - **Windows x64 installer:** [WozterDevSetup.msi](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDevSetup.msi)
-- **Windows x64 portable app:** [ZIP](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-win-x64.zip)
 - **Linux x64:** [tar.gz](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-linux-x64.tar.gz)
 - **Linux ARM64:** [tar.gz](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-linux-arm64.tar.gz)
 - **macOS Intel:** [ZIP app bundle](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-osx-x64.zip)
