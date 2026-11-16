@@ -1,19 +1,17 @@
-﻿# WozterDev downloads
+# WozterDev downloads
 
-Download the latest Windows installer from the [Releases page](https://github.com/WozterDev/wozterdev-downloads/releases/latest).
+Download the latest prebuilt WozterDev application. This public repository distributes application packages; it does not contain the WozterDev application source code.
 
-## Install
+## Latest: 1.2.0
 
-1. Download `WozterDevSetup.msi` from the latest release.
-2. Double-click the MSI and follow the installer progress.
-3. When setup reports that installation succeeded, click **Finish** and open WozterDev from the Start menu.
+- **Windows x64 installer:** [WozterDevSetup.msi](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDevSetup.msi)
+- **Windows x64 portable app:** [ZIP](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-win-x64.zip)
+- **Linux x64:** [tar.gz](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-linux-x64.tar.gz)
+- **Linux ARM64:** [tar.gz](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-linux-arm64.tar.gz)
+- **macOS Intel:** [ZIP app bundle](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-osx-x64.zip)
+- **macOS Apple Silicon:** [ZIP app bundle](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/WozterDev-1.2.0-osx-arm64.zip)
+- **Checksums:** [SHA256SUMS.txt](https://github.com/WozterDev/wozterdev-downloads/releases/latest/download/SHA256SUMS.txt)
 
-WozterDev installs for the current Windows account under `%LOCALAPPDATA%\Programs\WozterDev`. Projects, workspaces, environments, and locally installed service packages are stored under `%LOCALAPPDATA%\WozterDev` for that account. A different Windows account starts with its own settings and installed services.
+See the [release notes](https://github.com/WozterDev/wozterdev-downloads/releases/latest) for installation requirements. The macOS app is unsigned and may require approval in Privacy & Security on first launch. Linux and macOS users install PHP, Node.js/npm, and Python separately if they need those project runtimes.
 
-WozterDev does not bundle database or web-server packages in the application installer. Install and enable those services from the Services page.
-
-Project sites and enabled browser-based service URLs use the `.local` suffix.
-
-## Installer verification
-
-Each release includes `SHA256SUMS.txt`. Compare its hash with the downloaded MSI before installing. The MSI is currently unsigned, so Windows may display a publisher or reputation warning.
+GitHub automatically shows source-archive links for release tags and does not allow those links to be hidden. Both `v1.0.5` and `v1.2.0` in this downloads repository point to empty snapshots, so the generated source archives contain no files and no WozterDev application source code. Install using the attached platform packages above.
