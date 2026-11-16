@@ -1,4 +1,4 @@
-﻿# WozterDev downloads
+# WozterDev downloads
 
 Download the latest prebuilt WozterDev application. This public repository distributes application packages; it does not contain the WozterDev application source code.
 

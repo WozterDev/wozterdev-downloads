@@ -1,4 +1,4 @@
-﻿# WozterDev 1.2.1
+# WozterDev 1.2.1
 
 This release improves project setup and everyday local development across PHP, JavaScript, Python, and CMS projects.
 
