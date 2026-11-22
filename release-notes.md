@@ -1,27 +1,20 @@
-# WozterDev 1.2.1
+# WozterDev 1.4.0
 
-This release improves project setup and everyday local development across PHP, JavaScript, Python, and CMS projects.
+This release expands project scaffolding and improves runtime, service, and environment management.
 
-## Project workflows
+## New features
 
-- Open a terminal in each project's folder with its active PHP, Node.js, or Python runtime available.
-- Install npm dependencies during project creation when an npm-based project needs them, including Laravel frontend packages when Node.js is enabled. Existing installations are reused; projects declaring Yarn, pnpm, or Bun are not forced to use npm.
-- Create Python projects in a project-local `.venv`, install packages from `requirements.txt`, and update them from the same manifest. Django projects now include `requirements.txt` too.
-- Update dependencies with the package manager selected by each project's manifests and lock files: Composer, npm, Yarn, pnpm, pip, Poetry, uv, or Pipenv. WordPress and Joomla open their built-in updater pages.
-- Run project sites with the runtime selected in the active environment.
-
-## Interface and services
-
-- Show framework logos in project lists and project creation choices, plus service logos in the service catalog.
-- Replace project action labels with clear icons and hover descriptions.
-- Start WozterDev maximized and restore it maximized from the notification area.
-- Restart active managed web, database, and cache services for real, then report their resulting status.
+- Create native PHP and CakePHP projects, Astro sites, Java standard library and Spring Boot projects, and Go projects using the standard library, Gin, Echo, or Fiber.
+- Install and manage Go on Windows x64, and detect Go and Java runtimes already available on Linux and macOS.
+- Manage project dependencies, development servers, web roots, and framework-specific branding with improved project controls.
+- Configure MySQL and MariaDB root passwords and retain credentials securely for authenticated database statistics.
+- Manage local service packages and environments with clearer status, runtime, and setup controls.
 
 ## Downloads
 
-- Windows x64: MSI installer
-- Linux x64 and ARM64: `.tar.gz` application packages
-- macOS Intel and Apple Silicon: `.zip` app bundles
-- `SHA256SUMS.txt`: checksums for the five application packages
+- Windows x64: `WozterDevSetup.msi`
+- Linux x64: `WozterDev-1.4.0-linux-x64.tar.gz`
+- Linux ARM64: `WozterDev-1.4.0-linux-arm64.tar.gz`
+- `SHA256SUMS.txt`: SHA-256 checksums for all release packages
 
-The attached files are prebuilt application packages and contain no WozterDev project source code. GitHub automatically displays source-archive links for release tags; the `v1.2.1` tag points to an empty snapshot, so those archives contain no files. The macOS app remains unsigned and may require approval in Privacy & Security on first launch. Linux and macOS users install project runtimes separately.
+This release provides Windows and Linux packages. macOS packages are skipped for now. The release assets are prebuilt application packages; no source code is included. The `v1.4.0` tag in this downloads repository points to an empty source snapshot, so GitHub's automatic ZIP and gzip source archives contain no application source files.
